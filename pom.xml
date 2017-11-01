@@ -16,18 +16,6 @@
         <version>1.5.1.RELEASE</version>
     </parent>
 
-  <build>
-          <profiles>
-       <profile>
-                    <id>sonar</id>
-                        <properties>
-                    <sonar.host.url>
-                          http://localhost:9000
-                    </sonar.host.url>
-                    </properties>
-                     </profile>
-</profiles>
-
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
